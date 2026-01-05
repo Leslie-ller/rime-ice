@@ -11,6 +11,9 @@ user.yaml
 *.custom.yaml
 !others/**/*.custom.yaml
 
+# Large model/data files (not suitable for git syncing)
+*.gram
+
 custom_phrase_double.txt
 others/script/scel2txt/out/*
 others/script/scel2txt/scel/*
