@@ -11,6 +11,10 @@ user.yaml
 *.custom.yaml
 !others/**/*.custom.yaml
 
+# Keep my local customizations under version control
+!squirrel.custom.yaml
+!rime_mint.custom.yaml
+
 # Large model/data files (not suitable for git syncing)
 *.gram
 
